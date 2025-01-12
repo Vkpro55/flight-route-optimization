@@ -19,6 +19,12 @@ git clone https://github.com/Vkpro55/flight-route-optimization.git
 npm install
 npm run dev  || npm run server
 ```
+### 1. Backend
+   ```bash
+git clone https://github.com/Vkpro55/FlightRouteOptimization-Backend.git
+npm install
+npm start
+```
 
 ## 🛠️ Backend: Powering Flight Route Finder
 The backend of Flight Route Finder is the engine that drives the logic and calculations behind flight routes. Built with Node.js and Express, it ensures a smooth experience by handling requests, processing data, and interacting with the map. Here's a detailed overview of how the backend works and the choices I made while building it.
