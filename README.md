@@ -16,8 +16,8 @@ This project aims to simplify the process of finding flight routes by providing 
 ### 1. Frontend
    ```bash
 git clone https://github.com/Vkpro55/flight-route-optimization.git
-          npm install
-         npm run dev  || npm run server
+npm install
+npm run dev  || npm run server
 ```
 
 ## 🛠️ Backend: Powering Flight Route Finder
