@@ -7,3 +7,7 @@ This project aims to simplify the process of finding flight routes by providing 
 - Multi-Stop Routes: Plan complex journeys with multiple layovers.
 - User-Friendly Interface: Simple and intuitive design for seamless usage.
 
+## 🛠️ Technologies Used
+-Backend: Node.js with Express.js
+-Frontend: React.js with Leaflet for map integration
+-APIs: OpenSky Network API for real-time flight data (Reached Limit: I used very limited data)
