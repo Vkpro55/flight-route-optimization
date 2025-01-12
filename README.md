@@ -33,3 +33,4 @@ The backend of Flight Route Finder is the engine that drives the logic and calcu
                 },
                 ].....
    ```
+2.  Why Dijkstra’s Algorithm is Best for This Project: For our Flight Route Finder project, Dijkstra’s Algorithm strikes the right balance of time efficiency (O(E log V)) and space efficiency (O(V + E)), especially when dealing with graphs that represent positive-weighted connections (flight distances, costs, times). While A* and Bellman-Ford are viable alternatives, Dijkstra’s simplicity and reliability make it the best choice for our current needs.
