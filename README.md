@@ -10,4 +10,4 @@ This project aims to simplify the process of finding flight routes by providing 
 ## 🛠️ Technologies Used
 - Backend: Node.js with Express.js
 - Frontend: React.js with Leaflet for map integration
-- APIs: OpenSky Network API for real-time flight data (Reached Limit: I used very limited data)
+- APIs: OpenSky Network API for real-time flight data (Reached Limit: I used very limited openFlights data)
