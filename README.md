@@ -1,5 +1,6 @@
 # ✈️ Flight Route Finder: Navigate the Skies with Ease
-This project aims to simplify the process of finding flight routes by providing an easy-to-use tool for exploring possible connections. While currently working with limited data, it showcases the potential to solve the challenge of identifying efficient travel paths and visualizing routes in a user-friendly way including layovers in the route.
+This project aims to simplify the process of finding flight routes by providing an easy-to-use tool for exploring possible connections. While currently working with limited data, it showcases the potential to solve the challenge of identifying efficient travel paths and visualizing routes in a user-friendly way including layovers in the route. 
+Try it live - [Backend](https://flightrouteoptimization-backend.onrender.com) [Frontend](https://flight-route-optimization.onrender.com)
 
 ### 🚀 Features
 - Optimal Route Calculation: Find the shortest and most efficient flight paths.
@@ -17,7 +18,7 @@ This project aims to simplify the process of finding flight routes by providing 
    ```bash
 git clone https://github.com/Vkpro55/flight-route-optimization.git
 npm install
-npm run dev  || npm run server
+npm run dev  || npm run serve
 ```
 ### 1. Backend
    ```bash
