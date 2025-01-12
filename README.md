@@ -35,3 +35,17 @@ The backend of Flight Route Finder is the engine that drives the logic and calcu
    ```
 2.  Why Dijkstra’s Algorithm is Best for This Project: For our Flight Route Finder project, Dijkstra’s Algorithm strikes the right balance of time efficiency (O(E log V)) and space efficiency (O(V + E)), especially when dealing with graphs that represent positive-weighted connections (flight distances, costs, times). While A* and Bellman-Ford are viable alternatives, Dijkstra’s simplicity and reliability make it the best choice for our current needs.
 3. Animation on the Map:The backend doesn’t directly handle the animation, but it prepares and sends the necessary data to the frontend. The flight routes, once calculated, are sent as coordinates and waypoints that the frontend uses to animate the route on the map. By using Leaflet.js and custom front-end logic, we visualize the journey with smooth animations, allowing users to see the flight path dynamically as the animation progresses.
+
+
+## 🎨 Frontend: Building a Seamless User Experience
+The frontend of Flight Route Finder is built with React, powered by Vite for a fast development environment, and styled with Pure CSS to ensure clean and minimal design. Here's how the frontend works, how it interacts with the backend, and the technologies that make it all come together.
+### 🔗 Frontend-Backend Interaction
+1. API Communication:
+The communication between the frontend and backend happens via RESTful APIs. The frontend sends HTTP requests to the backend and expects the response in JSON format. The key endpoints for interaction are:
+
+POST /calculate: Accepts the origin and destination and returns the optimal route.
+GET /routes: Retrieves available routes for the user to explore.
+2. State Management:
+The frontend uses React’s state and useEffect hooks to manage and update the UI based on API responses. When the user submits the form, the state is updated with the new route data, which automatically triggers the re-render of components like the route map and details.
+3. Asynchronous Data Fetching:
+Data fetching is done asynchronously, ensuring that the UI remains responsive even while waiting for backend calculations. Axios is used to handle async requests and manage errors, while loading indicators are shown during the waiting period to improve the user experience.
