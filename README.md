@@ -16,8 +16,8 @@ This project aims to simplify the process of finding flight routes by providing 
 ## 🛠️ Backend: Powering Flight Route Finder
 The backend of Flight Route Finder is the engine that drives the logic and calculations behind flight routes. Built with Node.js and Express, it ensures a smooth experience by handling requests, processing data, and interacting with the map. Here's a detailed overview of how the backend works and the choices I made while building it.
 1. Graph Structure: To model the flight routes, we use a graph structure where airports are represented as nodes, and direct flights between airports are edges. This helps us efficiently find and visualize the best routes. The graph stores the data in a format that allows easy retrieval and comparison of different routes.
-```bash
-"nodes": {
+   ```bash
+   "nodes": {
         "Delhi": {
             "airportName": "Indira Gandhi International Airport",
             "lat": "28.5562",
@@ -32,4 +32,4 @@ The backend of Flight Route Finder is the engine that drives the logic and calcu
                     "airlineName": "Air India"
                 },
                 ].....
-```
+   ```
