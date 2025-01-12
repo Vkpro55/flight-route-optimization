@@ -42,10 +42,10 @@ The frontend of Flight Route Finder is built with React, powered by Vite for a f
 ### 🔗 Frontend-Backend Interaction
 1. API Communication:
 The communication between the frontend and backend happens via RESTful APIs. The frontend sends HTTP requests to the backend and expects the response in JSON format. The key endpoints for interaction are:
-  ```bash
-    POST /calculate: Accepts the origin and destination and returns the optimal route.
-    GET /routes: Retrieves available routes for the user to explore.
-  ``` 
+    ```bash
+      POST /calculate: Accepts the origin and destination and returns the optimal route.
+      GET /routes: Retrieves available routes for the user to explore.
+    ``` 
 2. State Management:
 The frontend uses React’s state and useEffect hooks to manage and update the UI based on API responses. When the user submits the form, the state is updated with the new route data, which automatically triggers the re-render of components like the route map and details.
 3. Asynchronous Data Fetching:
