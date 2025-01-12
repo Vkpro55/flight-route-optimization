@@ -12,6 +12,13 @@ This project aims to simplify the process of finding flight routes by providing 
 - Frontend: React.js with Leaflet for map integration
 - APIs: OpenSky Network API for real-time flight data (Reached Limit: I used very limited openFlights data)
 
+## 🚀 How to Explore the Frontend and Backend
+### 1. Frontend
+       ```bash
+           git clone 
+           npm install
+           npm run dev  || npm run server
+      ```
 
 ## 🛠️ Backend: Powering Flight Route Finder
 The backend of Flight Route Finder is the engine that drives the logic and calculations behind flight routes. Built with Node.js and Express, it ensures a smooth experience by handling requests, processing data, and interacting with the map. Here's a detailed overview of how the backend works and the choices I made while building it.
